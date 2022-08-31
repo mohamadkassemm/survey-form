@@ -13,13 +13,26 @@
     margin-right: 25%;
 }
 
+.same-line{
+    text-align: justify;
+}
+
 .question{
     text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
 }
 
 input{
     margin-left: 45px;
     margin-top: 15px;
+    background-color: blue;
 }
 
 h6{
