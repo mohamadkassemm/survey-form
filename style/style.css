@@ -24,10 +24,7 @@ body{
     text-align: center;
 }
 
-.inputs{
-    text-align: center;
-    align-items:center;
-}
+
 
 input{
     margin-left: 45px;
@@ -51,4 +48,3 @@ h6{
     block-size: 35px;
     margin: 20px;
 }
-
