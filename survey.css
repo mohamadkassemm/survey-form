@@ -1,0 +1,37 @@
+
+.head{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.body{
+    background-color: lightgray;
+    color: rgb(141, 43, 43);
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+label{
+    margin-right: 45px;
+}
+input{
+    margin-left: 45px;
+}
+
+h6{
+    color:grey;
+    text-align: left;
+}
+
+.textarea{
+    block-size: 100px;
+    width: 100%;
+}
+
+.submit{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    block-size: 35px;
+    margin: 20px;
+}
+
