@@ -21,16 +21,33 @@ body{
 }
 
 .question{
-    text-align: center;
+    margin-right: 25%;
+    margin-left: 10%;
 }
-
-
 
 input{
-    margin-left: 45px;
-    margin-top: 15px;
-
+    margin-left: 50px;
 }
+
+.left{
+    
+    width:35% ;
+    
+    margin-left: 10%;
+    float: 0 auto;
+    
+}
+.right{
+    width: 35%;
+    
+    margin-right: 20%;
+    float:right ;
+    
+}
+label{
+    display: inline-block;
+}
+
 
 h6{
     color:grey;

@@ -9,73 +9,51 @@
     <body>
         <form class="body" >
 
-            <center><label ><b> When did you use our service?</b></label>
-            <label ><b>Name of product or service</b></label></center><br>
-            <input type="date" class="left">     
-            <input type="text" class="right">
-            <br>  
-            <h6>Date</h6>
+            <label class="right" ><b>Name of product or service </b></label>
+            <label class="left" ><b>When did you use our service?</b></label><br>
+                <div class="right"><input type="text"></div>
+                <div class="left"><input type="date"></div>
+              
+            <h6 class="left">Date</h6>
             
         
-            <div class="question"><p><b>Overall, how satisfied are you with the product or service?</b></p></div>
-            <center>
+            <div class="question"><label><b>Overall, how satisfied are you with the product or service?</b></label></div><br>
+            
                 <div>
-                <input type="radio" class="left">
-                    <label >Very satisfied</label>
-                <input type="radio" class="right" >
-                    <label>Satisfied</label><br>
-                <input type="radio" class="left">
-                    <label>Neutral</label>
-                <input type="radio" class="right">
-                    <label>Unsatisfied</label><br>
-                <input type="radio" class="left">
-                    <label>Very unsatisfied</label>
-                <input type="radio" class="right">
-                    <label>N/A</label><br>
+                    <div class="right"><input type="radio">Satisfied</div>
+                    <div class="left"><input type="radio">Very Satisfied</div><br>
+                    <div class="right"><input type="radio" >Unsatisfied</div>
+                    <div class="left"><input type="radio">Neutral</div><br>
+                    <div class="right"><input type="radio" >N/A</div>
+                    <div class="left"><input type="radio" >Very unsatisfied</div><br>
                 </div>
-            </center>
+            
 
             <div class="question"><p><b>Did our product or service meet your expectations?</b></p></div>
-            <center>
-                <input type="radio">
-                    <label>Yes</label>
-                <input type="radio">
-                    <label>No</label><br>
-            </center>
+
+                <div class="right"><input type="radio">No</div>   
+                <div class="left"><input type="radio">Yes</div>
+                    
 
             <div class="question"><p><b>Would you recommend this product or service to a friend?</b></p></div>
-            <center>
-                <input type="radio">
-                    <label>Yes</label>
-                <input type="radio">
-                    <label>No</label><br>.
-            </center>
+                <div class="right"><input type="radio">No</div>   
+                <div class="left"><input type="radio">Yes</div>
 
             <div class="question"><p><b>What aspect of the product or service you most satisfied by?</b></p></div>
-            <center>
-                <input type="radio">
-                    <label>Quality</label>
-                <input type="radio">
-                    <label>Price</label><br>
-                <input type="radio">
-                    <label>Customer service</label>
-                <input type="radio">
-                    <label>Installation or first use experience</label><br>
-            </center>
-
-            <div class="question"><p><b>What aspect of the product or service you least satisfied by?</b></p></div>
-            <center>
-                <input type="radio">
-                    <label>Quality</label>
-                <input type="radio">
-                    <label>Price</label><br>
-                <input type="radio">
-                    <label>Customer service</label>
-                <input type="radio">
-                    <label>Installation or first use experience</label><br>
-            </center>
             
-            <div class="question"><p><b>Additional comments:</b></div></p><br>
+                <div class="right"><input type="radio">Price</div>
+                <div class="left"><input type="radio">Quality</div>
+                <div class="right"><input type="radio">Installation or first use experience</div>
+                <div class="left"><input type="radio">Customer service</div>
+            
+
+           <br><div class="question"><p><b>What aspect of the product or service you least satisfied by?</b></p></div>
+                <div class="right"><input type="radio">Price</div>
+                <div class="left"><input type="radio">Quality</div>
+                <div class="right"><input type="radio">Installation or first use experience</div>
+                <div class="left"><input type="radio">Customer service</div>
+            
+            <br><div><center><b>Additional comments:</b></center></div><br>
                 <textarea class="textarea" width="100%" placeholder="type here..."></textarea>
 
             <br>
